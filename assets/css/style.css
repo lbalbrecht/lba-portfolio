@@ -43,11 +43,6 @@ header {
     /* position:relative */
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 #about {
     max-width:900px;
     min-width:165px;
@@ -135,6 +130,24 @@ footer {
         display:block;
         margin:auto;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .content {
+        position:relative;
+        top:180px;
+        padding:20px;
+    }
+    footer {
+        margin-bottom:-100px;
     }
 }
 
