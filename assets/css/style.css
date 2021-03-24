@@ -22,6 +22,9 @@ header {
     margin-right:35px;
     margin-top:30px;
     word-spacing: 10px;
+    color: black;
+    font-weight:bolder;
+    font-size:30px
 }
 
 .content {
@@ -40,13 +43,15 @@ header {
     /* position:relative */
 }
 
-/* #picture {
-    float: left;
-} */
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 #about {
     max-width:900px;
     min-width:165px;
+    margin-left:40px;
 }
 
 #heading {
@@ -55,7 +60,7 @@ header {
 
 #portfolio {
     margin-bottom:50px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .examples {
@@ -69,7 +74,7 @@ header {
     border-radius:2px;
     padding:5px;
     max-width:fit-content;
-    margin:15px;
+    margin-bottom:15px;
 
 }
 
@@ -109,4 +114,32 @@ footer {
     z-index: 1;
     margin-bottom:-20px;
     text-align: center;
+}
+
+@media screen and (max-width: 2300px) {
+    #portfolio #heading {
+
+    }
+    .examples {
+        display:grid;
+        grid-template-columns: repeat(2, 3fr);
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .examples {
+        display:grid;
+        grid-template-columns: repeat(1, 6fr);
+    }
+    #bio {
+        display:block;
+        margin:auto;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .nav {
+        display: block;
+    }
 }
