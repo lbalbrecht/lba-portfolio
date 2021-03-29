@@ -12,4 +12,4 @@ Links to the author's social media pages are available at the bottom of the page
 
 ![Github repository] (https://github.com/lbalbrecht/lba-portfolio-homework)
 
-I[Portfolio snapshot] (C:\Users\leigh\bootcamp\homework2\lba-portfolio-homework\assets\images\portfolio-snapshot.png)
+<img src=".\assets\images\portfolio-snapshot.png" alt = "Leighton's portfolio screenshot">
