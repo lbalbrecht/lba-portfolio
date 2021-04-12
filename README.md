@@ -1,4 +1,4 @@
-# lba-portfolio-homework
+# lba-portfolio
 
 ## User Story
 An online portfolio is necessary if you want to be employer-ready. If you want to be considered for a position, you have to be able to demonstrate your work to potential employers. Providing them with a portfolio that shows off your abilities as well as gives some insight into who you are as a person
