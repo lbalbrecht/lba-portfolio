@@ -18,7 +18,17 @@ $("#weather-dash-btn").on('click', function(e) {
     window.open('https://github.com/lbalbrecht/lba-weather-dashboard', '_blank');
 });
 
-$("#code-quiz-btn").on('click', function(e) {
+$("#readme-generator-btn").on('click', function(e) {
     e.preventDefault();
-    window.open('https://github.com/lbalbrecht/lba-coding-quiz', '_blank');
+    window.open('https://github.com/lbalbrecht/lba-readme-generator', '_blank');
+});
+
+$("#team-profile-btn").on('click', function(e) {
+    e.preventDefault();
+    window.open('https://github.com/lbalbrecht/lba-team-profile-generator', '_blank');
+});
+
+$("#note-taker-btn").on('click', function(e) {
+    e.preventDefault();
+    window.open('https://github.com/lbalbrecht/lba-note-taker', '_blank');
 });

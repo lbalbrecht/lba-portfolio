@@ -3,7 +3,7 @@
 ## Description
 An online portfolio is necessary if you want to be employer-ready. If you want to be considered for a position, you have to be able to demonstrate your work to potential employers. Providing them with a portfolio that shows off your abilities as well as gives some insight into who you are as a person
 
-[deployed to Github Pages] (https://lbalbrecht.github.io/lba-portfolio-homework/)
+[deployed to Github Pages] (https://lbalbrecht.github.io/lba-portfolio/)
 
 ## Usage
 The app opens up to the home page, which contains a headshot and a short bio. On the upper-righthand side of the page are links to the portfolio and contact pages; clicking either link will navigate the user to the specified page. On the upper-lefthand side of the page is a link with the author's name. Clicking this link will take the user back to the home page

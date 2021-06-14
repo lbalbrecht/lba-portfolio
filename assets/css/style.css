@@ -50,6 +50,10 @@ body {
     margin-bottom: 10px;
 }
 
+#resume-row {
+    justify-content: center;
+}
+
 .apps {
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +88,7 @@ body {
     text-align: center
 }
 
-.card-text {
+.card-note {
     font-style: italic;
 }
 
