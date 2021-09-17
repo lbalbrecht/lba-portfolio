@@ -13,70 +13,146 @@
 
 <body>
     <nav class="navbar navbar-expand-md" id="navbar">
-        <a href="./index.html" class="navbar-brand" id="home-link">Leighton Albrecht</a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="navbar-links" id="navbar-collapse">
+        <h2>Leighton Albrecht</h2>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="navbar-links"
+            id="navbar-collapse">
             <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbar-links">
             <ul class="navbar-nav" id="nav-links">
                 <li class="nav-item">
-                    <a href="#" class="nav-link" id="portfolio-link">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="./contact.html" class="nav-link" id="contact-link">Contact</a>
+                    <a href="./index.html" class="nav-link" id="portfolio-link">About</a>
                 </li>
             </ul>
         </div>
     </nav>
     <main class="container" id="content">
         <h2 id="heading">Portfolio</h2>
-            <section class="apps">
-                <div class="card">
-                    <a href="https://gear-wise.herokuapp.com/"><img class="snapshot" src="./assets/images/snapshots/gearwise.png" alt="gearwise"></a>
-                    <p class="card-title">GearWise</p>
-                    <p class="card-text">GearWise is an application for backpackers and campers to log and store their gear, record trips, and ensure that their load isn't too heavy to carry.
-                        After a year of isolation and quarantine, many of us are itching to get outside and stretch our legs. GearWise will help users ensure that their trip is successful. Nothing ruins a trip quite like realizing you've forgotten something or that you're carrying more than you can handle.</p>
-                    <button class="btn github-btn" id="gearwise-btn"><h3><i class="fab fa-github-square github-icon"></i></h3></button>
+        <section class="apps">
+            <div class="card">
+                <a href="https://gear-wise.herokuapp.com/"><img class="snapshot"
+                        src="./assets/images/snapshots/gearwise.png" alt="gearwise"></a>
+                <p class="card-title">GearWise</p>
+                <div class="card-body">
+                    <div class="project-tech">
+                        <p>javascript, handlebars.js, sql, sequelize, nodejs</p>
+                    </div>
+                    <p class="card-text">GearWise is an application for backpackers and campers to log and store their
+                        gear, record trips, and ensure that their load isn't too heavy to carry.
+                        After a year of isolation and quarantine, many of us are itching to get outside and stretch our
+                        legs. GearWise will help users ensure that their trip is successful. Nothing ruins a trip quite
+                        like realizing you've forgotten something or that you're carrying more than you can handle.</p>
                 </div>
-                <div class="card">
-                    <a href="https://lbalbrecht.github.io/lba-day-planner/"><img class="snapshot" src="./assets/images/snapshots/day-planner.png" alt="Day planner"></a>
-                    <p class="card-title">Day Planner</p>
-                    <p class="card-text">When the app launches, the user will be presented with a blank planner. When the user clicks on the input field in each hour block, they will be able to enter a task to complete in that hour. Pressing the save button to the right of the hour block will save THAT HOUR'S task to local storage. Any tasks saved to local storage will reappear when the page is reloaded.</p>
-                    <button class="btn github-btn" id="day-planner-btn"><h3><i class="fab fa-github-square github-icon"></i></h3></button>
+                <button class="btn github-btn" id="gearwise-btn">
+                    <h3><i class="fab fa-github-square github-icon"></i></h3>
+                </button>
+            </div>
+            <div class="card">
+                <a href="https://lbalbrecht.github.io/lba-day-planner/"><img class="snapshot"
+                        src="./assets/images/snapshots/day-planner.png" alt="Day planner"></a>
+                <p class="card-title">Day Planner</p>
+                <div class="card-body">
+                    <div class="project-tech">
+                        <p>javascript, handlebars.js, sql, sequelize, nodejs</p>
+                    </div>
+                <p class="card-text">When the app launches, the user will be presented with a blank planner. When the
+                    user clicks on the input field in each hour block, they will be able to enter a task to complete in
+                    that hour. Pressing the save button to the right of the hour block will save THAT HOUR'S task to
+                    local storage. Any tasks saved to local storage will reappear when the page is reloaded.</p>
                 </div>
-                <div class="card">
-                    <a href="https://lbalbrecht.github.io/lba-password-generator/"><img class="snapshot" src="./assets/images/snapshots/password-generator.png" alt="password generator"></a>
-                    <p class="card-title">Password Generator</p>
-                    <p class="card-text">This application allows users to generate custom, random passwords based on criteria they choose. The application prompts the user to select specific characters to include in their password, as well as the length, and then returns the password.</p>
-                    <button class="btn github-btn" id="pass-gen-btn"><h3><i class="fab fa-github-square github-icon"></i></h3></button>
-                </div>
-                <div class="card">
-                    <a href="https://lbalbrecht.github.io/lba-weather-dashboard/" target="_blank"><img class="snapshot" src="./assets/images/snapshots/weather-dashboard.png" alt="A snapshot of a weather forecast"></a>
-                    <p class="card-title">Weather Dashboard</p>
-                    <p class="card-text">This application allows users to look up weather information for a specific city. The application returns the current weather as well as a five-day forecast.
-                        The current weather includes the city name, current date, current temperature, humidity, wind speed, and an icon representing the weather. The forecast includes the date, an icon representing the weather, the temerature, and the humidity.</p>
-                        <button class="btn github-btn" id="weather-dash-btn"><h3><i class="fab fa-github-square github-icon"></i></h3></button>
-                </div>
-                <div class="card">
-                    <a href="https://lba-note-taker.herokuapp.com"><img class="snapshot" src="./assets/images/snapshots/note-taker.png" alt="note taker"></a>
-                    <p class="card-title">Note Taker</p>
-                    <p class="card-text">This application uses express and sequelize to allow the user to write and save text notes to an online database. With this, the user will be able to keep track of tasks and ensure that their obligations get completed.</p>
-                    <button class="btn github-btn" id="note-taker-btn"><h3><i class="fab fa-github-square github-icon"></i></h3></button>
-                </div>
-                <div class="card">
-                    <a href="https://github.com/lbalbrecht/lba-readme-generator"><img class="snapshot" src="./assets/images/snapshots/readme-generator.png" alt="code quiz"></a>
-                    <p class="card-title">Readme Generator</p>
-                    <p class="card-note">This is a back-end application</p>
-                    <p class="card-text">This application uses npm inquirer and fs to generate and populate markdown files in order to create professional-grade readmes. With this, the user will easily be able to share repository information with new users and readers, allowing for an easy and straightforward user experience.</p>
-                    <button class="btn github-btn" id="readme-generator-btn"><h3><i class="fab fa-github-square github-icon"></i></h3></button>
-                </div>
-                <div class="card">
-                    <a href="#"><img class="snapshot" src="./assets/images/snapshots/team-profile-generator.png" alt="kitten placeholder"></a>
-                    <p class="card-title">Team Profile Generator</p>
-                    <p class="card-note">This is a back-end application</p>
-                    <p class="card-text">This application will allow the user to generate a site for their development team. The site will include each member's contact information as well as employee IDs and other pertinent professional information based on their role. Presently, the application allows the user to input information for managers, engineers, and interns; although, there is the opportunity to expand the application for teams with a broader variety of roles. The application uses the "inquirer" npm package to allow the user to build their team. Additionally, the app uses the "jest" npm package to test the application.</p>
-                    <button class="btn github-btn" id="team-profile-btn"><h3><i class="fab fa-github-square github-icon"></i></h3></button>
-                </div>
+                <button class="btn github-btn" id="day-planner-btn">
+                    <h3><i class="fab fa-github-square github-icon"></i></h3>
+                </button>
+            </div>
+            <div class="card">
+                <a href="https://lbalbrecht.github.io/lba-password-generator/"><img class="snapshot"
+                        src="./assets/images/snapshots/password-generator.png" alt="password generator"></a>
+                <p class="card-title">Password Generator</p>
+                <div class="card-body">
+                    <div class="project-tech">
+                        <p>javascript, handlebars.js, sql, sequelize, nodejs</p>
+                    </div>
+                <p class="card-text">This application allows users to generate custom, random passwords based on
+                    criteria they choose. The application prompts the user to select specific characters to include in
+                    their password, as well as the length, and then returns the password.</p>
+                    </div>
+                <button class="btn github-btn" id="pass-gen-btn">
+                    <h3><i class="fab fa-github-square github-icon"></i></h3>
+                </button>
+            </div>
+            <div class="card">
+                <a href="https://lbalbrecht.github.io/lba-weather-dashboard/" target="_blank"><img class="snapshot"
+                        src="./assets/images/snapshots/weather-dashboard.png"
+                        alt="A snapshot of a weather forecast"></a>
+                <p class="card-title">Weather Dashboard</p>
+                <div class="card-body">
+                    <div class="project-tech">
+                        <p>javascript, handlebars.js, sql, sequelize, nodejs</p>
+                    </div>
+                <p class="card-text">This application allows users to look up weather information for a specific city.
+                    The application returns the current weather as well as a five-day forecast.
+                    The current weather includes the city name, current date, current temperature, humidity, wind speed,
+                    and an icon representing the weather. The forecast includes the date, an icon representing the
+                    weather, the temerature, and the humidity.</p>
+                    </div>
+                <button class="btn github-btn" id="weather-dash-btn">
+                    <h3><i class="fab fa-github-square github-icon"></i></h3>
+                </button>
+            </div>
+            <div class="card">
+                <a href="https://lba-note-taker.herokuapp.com"><img class="snapshot"
+                        src="./assets/images/snapshots/note-taker.png" alt="note taker"></a>
+                <p class="card-title">Note Taker</p>
+                <div class="card-body">
+                    <div class="project-tech">
+                        <p>javascript, handlebars.js, sql, sequelize, nodejs</p>
+                    </div>
+                <p class="card-text">This application uses express and sequelize to allow the user to write and save
+                    text notes to an online database. With this, the user will be able to keep track of tasks and ensure
+                    that their obligations get completed.</p>
+                    </div>
+                <button class="btn github-btn" id="note-taker-btn">
+                    <h3><i class="fab fa-github-square github-icon"></i></h3>
+                </button>
+            </div>
+            <div class="card">
+                <a href="https://github.com/lbalbrecht/lba-readme-generator"><img class="snapshot"
+                        src="./assets/images/snapshots/readme-generator.png" alt="code quiz"></a>
+                <p class="card-title">Readme Generator</p>
+                <div class="card-body">
+                    <div class="project-tech">
+                        <p>javascript, handlebars.js, sql, sequelize, nodejs</p>
+                    </div>
+                <p class="card-note"></p>
+                <p class="card-text">This is a back-end application. This application uses npm inquirer and fs to generate and populate markdown files
+                    in order to create professional-grade readmes. With this, the user will easily be able to share
+                    repository information with new users and readers, allowing for an easy and straightforward user
+                    experience.</p>
+                    </div>
+                <button class="btn github-btn" id="readme-generator-btn">
+                    <h3><i class="fab fa-github-square github-icon"></i></h3>
+                </button>
+            </div>
+            <div class="card">
+                <a href="#"><img class="snapshot" src="./assets/images/snapshots/team-profile-generator.png"
+                        alt="kitten placeholder"></a>
+                <p class="card-title">Team Profile Generator</p>
+                <div class="card-body">
+                    <div class="project-tech">
+                        <p>javascript, handlebars.js, sql, sequelize, nodejs</p>
+                    </div>
+                <p class="card-text">This is a back-end application. This application will allow the user to generate a site for their development team.
+                    The site will include each member's contact information as well as employee IDs and other pertinent
+                    professional information based on their role. Presently, the application allows the user to input
+                    information for managers, engineers, and interns; although, there is the opportunity to expand the
+                    application for teams with a broader variety of roles. The application uses the "inquirer" npm
+                    package to allow the user to build their team. Additionally, the app uses the "jest" npm package to
+                    test the application.</p>
+                    </div>
+                <button class="btn github-btn" id="team-profile-btn">
+                    <h3><i class="fab fa-github-square github-icon"></i></h3>
+                </button>
+            </div>
 
     </main>
     <!-- <footer>

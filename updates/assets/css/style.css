@@ -64,16 +64,10 @@ body {
     border-style: solid;
     border-color:black;
     border-radius: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    max-width: 450px;
+    padding: 5px;
+    max-width: 437px;
     margin: 15px;
-}
 
-.card a {
-    max-width: 425px;
 }
 
 .snapshot {
@@ -94,31 +88,14 @@ body {
     text-align: center
 }
 
-.project-tech {
+.card-note {
     font-style: italic;
-}
-
-.card-body {
-    align-content: center;
-    padding: 0px;
-}
-
-.card-text {
-    height: 150px;
-    overflow-y: scroll;
-    border-style: solid;
-    border: black;
-    /* border-width: 1px; */
-}
-
-.card-text::-webkit-scrollbar {
-    display: none;
 }
 
 .github-btn {
     background-color: transparent;
     height: 40px;
-    /* margin-top: -30px; */
+    margin-top: -30px;
     padding-top: 10px;
 }
 
@@ -127,7 +104,24 @@ body {
     color:black;
 }
 
-.contact-link {
-    color: black;
-    font-weight: bold;
+#socials {
+    display: flex;
+    justify-content: center;
+}
+
+#linkedin-btn {
+    margin-right: 10px;
+}
+
+#github-btn {
+    margin-left: 10px;
+}
+
+footer {
+    background-color:#D3C1AB;
+    padding: 10px;
+    width: 100vw;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
 }
