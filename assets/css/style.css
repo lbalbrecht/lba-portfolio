@@ -34,6 +34,7 @@ body {
     /* z-index: -1; */
 }
 
+
 #about {
     padding-left: 15px;
     padding-right: 15px;
@@ -50,8 +51,16 @@ body {
     margin-bottom: 10px;
 }
 
+#about-me {
+    margin-left: 5px;
+}
+
 #resume-row {
     justify-content: center;
+}
+
+.proficiencies-row {
+    text-align: center;
 }
 
 .apps {
